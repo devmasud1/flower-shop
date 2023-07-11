@@ -6,14 +6,21 @@
 body {
   font-family: "Lato", sans-serif;
 }
+section {
+  width: 1440px;
+  margin: auto;
+  margin-bottom: 80px;
+}
 
 /* banner css start*/
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
 .banner-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 220px 0px 220px;
-  background-color: rgba(229, 84, 115, 0.1);
 }
 
 .banner-title {
@@ -38,7 +45,7 @@ body {
   cursor: pointer;
   transition: all 0.3s;
 }
-.main-btn:hover{
+.main-btn:hover {
   background-color: #272727;
   color: #e55473;
 }
@@ -47,3 +54,106 @@ body {
   width: 635px;
 }
 /* banner css end*/
+
+
+/* featured css */
+.featured {
+  text-align: center;
+  padding: 50px 0px;
+}
+.section-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-description {
+  width: 594px;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.featured-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+.featured-box1 {
+  width: 400px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.featured-box1 img {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+}
+
+.featured-box2 {
+  width: 400px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.featured-box2 img {
+  position: absolute;
+  left: 5%;
+  bottom: 8%;
+}
+
+.featured-box3 {
+  width: 400px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.featured-box3 img {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+}
+
+.featured-box-wrapper a {
+  color: #272727;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  position: absolute;
+  bottom: -45px;
+  left: 100px;
+}
+
+.support {
+  height: 280px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.icon {
+  width: 88px;
+  height: 88px;
+}
+
+.support p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+/* featured css end*/
