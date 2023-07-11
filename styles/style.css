@@ -10,6 +10,7 @@ section {
   width: 1440px;
   margin: auto;
   margin-bottom: 80px;
+  padding-top: 80px;
 }
 
 /* banner css start*/
@@ -65,10 +66,11 @@ header {
   color: #272727;
   font-size: 40px;
   font-weight: 800;
+  text-align: center;
 }
 .section-description {
   width: 594px;
-  margin: auto;
+  margin: 20px auto;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
@@ -157,6 +159,7 @@ header {
 }
 /* featured css end*/
 
+/* Deal Section */
 .hot-deal-section {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
@@ -190,3 +193,11 @@ header {
 .deal-img {
   padding: 60px 40px;
 }
+/* Deal Section End*/
+
+/* Social Section */
+.social-img {
+  display: flex;
+  gap: 24px;
+}
+/* Social Section End*/
