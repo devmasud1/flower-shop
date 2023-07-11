@@ -10,7 +10,7 @@ section {
   width: 1440px;
   margin: auto;
   margin-bottom: 80px;
-  padding-top: 100px;
+  padding: 100px 0px;
 }
 
 /* banner css start*/
@@ -22,6 +22,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 0px;
 }
 
 .banner-title {
@@ -150,7 +151,7 @@ header {
 
 .support p {
   color: rgba(39, 39, 39, 0.8);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 35px;
 }
@@ -191,14 +192,12 @@ header {
 }
 /* Deal Section End*/
 
-
 /* Social Section */
 .social-img {
   display: flex;
   gap: 24px;
 }
 /* Social Section End*/
-
 
 /* Contact Section */
 .contact {
@@ -240,7 +239,6 @@ footer {
   background: #111010;
   padding: 100px;
   text-align: center;
-  
 }
 .footer-title {
   color: #fff;
@@ -261,3 +259,36 @@ footer {
   font-size: 16px;
 }
 /* Footer Section End*/
+
+/* Bog Section */
+.blog-section {
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.blog-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.blog-box {
+  width: 400px;
+  text-align: center;
+  margin-top: 22px;
+}
+.blog-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+.blog-box h2 {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 22px 0px;
+}
+
+.blog-box p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  line-height: 25px;
+}
+/* Bog Section End*/
